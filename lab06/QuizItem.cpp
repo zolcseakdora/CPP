@@ -9,7 +9,7 @@ QuizItem :: QuizItem(const string& questionText,
     id=nextId++;
 }
 int getId() const{
-    return nextId;
+    return id;
 }
 string getQuestion() const{
     return question;

@@ -1,7 +1,7 @@
 #include "User.h"
 int User::nextId=1;
 User ::User( const string& userName )
-  :id(nextId++),userName(name){}
+  :id(nextId++),name(userName){}
 
 int getId() const{
     return id;
